@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: "SEGOI UI"; /* Change the font-family as needed */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  /* position: fixed; */
+  height: 100px;
+  /* */
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+}
+.logo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  /* margin-left: 250px; */
+  padding: 0;
+  gap: 10px;
+}
+
+ul li {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+ul li:hover {
+  color: red; /* Adjust the hover text color as needed */
+}
+
+.light {
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+svg {
+  height: 80px;
+  width: 90px;
+  margin-left: 50px;
+}
+.info {
+  /* position: absolute; */
+  width: 624px;
+  height: 77px;
+  left: 269px;
+  top: 470px;
+  font-weight: 20px;
+  color: rgb(22, 21, 21);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.name img {
+  width: 10px;
+  height: 10px;
+}
+.social {
+  /* Socials Links */
+
+  /* position: absolute;
+  width: 40;
+  height: 50px;
+
+  margin-right: 2000%; */
+  /* Socials Links */
+
+  position: absolute;
+  width: 60px;
+  height: 300px;
+  left: 112px;
+  top: 299px;
+  gap: 20px;
+}
+.social img {
+  padding-bottom: 10px;
+  width: 50px;
+  height: 24px;
+  margin-right: 10px;
+  padding-right: 30px;
+}
+.download {
+  /* CV Button */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 209px;
+  top: 279px;
+  color: white;
+  background: linear-gradient(90deg, #df580c 0%, #fd993d 100%);
+  border: 3px solid #ffffff;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.get {
+  /* Touch Button */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  left: 369px;
+  top: 279px;
+  color: white;
+  background: linear-gradient(90deg, #434343 0%, #000000 100%);
+  border: 3px solid #ffffff;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.leftv {
+  top: 700px;
+}
+.hand1 {
+  /* Rectangle */
+
+  position: absolute;
+  width: 400px;
+  height: 580px;
+  /* left: 125px; */
+  top: 350px;
+  /* transform: matrix(-0.01, -1, -1, 0.01, 0, 0); */
+}
